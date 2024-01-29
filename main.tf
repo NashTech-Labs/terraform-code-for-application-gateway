@@ -193,7 +193,7 @@ resource "azurerm_linux_virtual_machine" "vm2" {
   computer_name                   = "myvm"
   admin_username                  = "azureuser"
   disable_password_authentication = false
-  admin_password = "Rupali152012345"
+  admin_password = ""
 
   os_disk {
     name = "osdist2"
